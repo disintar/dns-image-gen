@@ -12,7 +12,7 @@ import (
 
 func main() {
 
-	contentPathPrefix := flag.String("prefix", "/Users/i.nedzvetskiy/go/src/dns-image-gen", "content")
+	contentPathPrefix := flag.String("prefix", ".", "content")
 	origin := flag.String("host", "127.0.0.1:3333", "[host]:port")
 	flag.Parse()
 
